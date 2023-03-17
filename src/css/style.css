@@ -1,0 +1,109 @@
+@import './reset.css';
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    background-color: #328787;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 300px;
+    padding: 10px 10px 0;
+    background-color: #FFFFFF;
+    color: #262638;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.label:hover {
+    border: 1px solid #032227;
+    background-color: #dff0f0;
+}
+
+.input {
+    visibility: hidden;
+}
+
+.text {
+    font-size: 16px;
+    color: #535353;
+    text-align: center;
+}
+
+.form {
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.form.active {
+    visibility: visible;
+}
+
+.form__label {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    margin: auto;
+    padding: 3px;
+}
+
+.form__input {
+    display: block;
+    width: 150px;
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+    padding: 3px;
+    border: 1px solid #034C58;
+}
+
+.form__button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    width: 150px;
+    margin: 5px auto;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    background-color: #034C58;
+    color: #FFFFFF;
+}
+
+.form__button:hover {
+    background-color: #032227;
+}
+
+.filename {
+    visibility: hidden;
+    font-size: 18px;
+    color: #CFCFCF;
+    text-align: center;
+}
+
+.filename.active {
+    visibility: visible;
+}
