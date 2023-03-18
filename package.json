@@ -1,6 +1,6 @@
 {
   "name": "image-resizer",
-  "productName": "image-resizer",
+  "productName": "Image Resizer",
   "version": "1.0.0",
   "description": "My Electron application description",
   "main": "src/main.js",

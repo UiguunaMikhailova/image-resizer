@@ -34,7 +34,6 @@
 }
 
 .label:hover {
-    border: 1px solid #032227;
     background-color: #dff0f0;
 }
 
@@ -97,13 +96,14 @@
     background-color: #032227;
 }
 
-.filename {
+.fileinfo {
     visibility: hidden;
     font-size: 18px;
     color: #CFCFCF;
     text-align: center;
+    margin: 2px 0;
 }
 
-.filename.active {
+.fileinfo.active {
     visibility: visible;
 }

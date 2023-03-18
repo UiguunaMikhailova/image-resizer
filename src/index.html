@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self'" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -35,7 +36,8 @@
         </div>
         <button type="submit" class="form__button">Resize</button>
       </form>
-      <p class="filename" id="filename">File: <span id="filename-span"></span></p>
+      <p class="fileinfo">File: <span id="filename"></span></p>
+      <p class="fileinfo">Output: <span id="output-path"></span></p>
     </div>
   </body>
 </html>
